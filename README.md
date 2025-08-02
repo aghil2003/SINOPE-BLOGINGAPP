@@ -52,6 +52,9 @@ cd frontend
 npm install
 npm run dev
 
+# Create a .env file and add your environment variables:
+# VITE_API_URL
+
 ## Environment Variables
 Backend .env example:
 PORT=5000
@@ -59,7 +62,11 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=http://localhost:5173](https://sinope-blogingapp-2.onrender.com/
+
+## Environment Variables
+frontend .env example:
+VITE_API_URL=https://sinope-blogingapp-1.onrender.com/api
 
 ## API Endpoints Overview
 
